@@ -22,6 +22,7 @@
 <canvas id="c"></canvas>
 <div id="loading" class="overlay">灯影 · 载入中……</div>
 <div id="rotate" class="overlay">请把手机横过来<br><span style="font-size:15px;opacity:.6">这是一个横版游戏</span></div>
-<script>/* 开发期：每次都拿最新脚本，避免缓存 */ const s = document.createElement("script"); s.src = "game.js?t=" + Date.now(); document.body.appendChild(s);</script>
+<!-- 改了 game.js 后把 v 加一，避免手机浏览器用旧缓存 -->
+<script src="game.js?v=2" onerror="document.getElementById('loading').textContent='脚本载入失败，请刷新重试'"></script>
 </body>
 </html>
