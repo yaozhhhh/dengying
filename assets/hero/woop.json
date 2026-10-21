@@ -1,0 +1,1554 @@
+{
+  "schemaVersion": "manual-rig-project@1",
+  "packageFormat": "woop@2",
+  "metadata": {
+    "num": "084",
+    "category": "character",
+    "gender": "male",
+    "kind": "generation",
+    "style": "traditional2",
+    "templateId": "character-male-084",
+    "uid": "5621397c-8811-52c4-9855-fd994f5c073e",
+    "templateUid": "11e1971a-1af4-4d41-94b5-2d08656bf638",
+    "assetNum": "001",
+    "partBackground": "transparent@eyes-hats-v4"
+  },
+  "rigSemantics": {
+    "schemaVersion": "rig-semantics@1",
+    "category": "character",
+    "bodyModel": "split-torso-legs",
+    "source": "auto",
+    "roles": {
+      "head": "part_006",
+      "leftUpperArm": "part_013",
+      "leftLowerArm": "part_014",
+      "leftHand": "part_015",
+      "rightUpperArm": "part_001",
+      "rightLowerArm": "part_002",
+      "rightHand": "part_003",
+      "upperTorso": "part_004",
+      "lowerTorso": "part_005",
+      "leftUpperLeg": "part_009",
+      "leftLowerLeg": "part_010",
+      "leftFoot": "part_007",
+      "rightUpperLeg": "part_008",
+      "rightLowerLeg": "part_011",
+      "rightFoot": "part_012"
+    }
+  },
+  "projectId": "generation-15a9bd351dc74232b861c775585b006a",
+  "sourceSheet": {
+    "width": 2048,
+    "height": 2048
+  },
+  "parts": [
+    {
+      "id": "part_001",
+      "width": 192,
+      "height": 168,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          547,
+          512
+        ],
+        "zIndex": 12,
+        "tightBBox": [
+          565,
+          530,
+          721,
+          662
+        ],
+        "cropBBox": [
+          547,
+          512,
+          739,
+          680
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          376.0833431319981,
+          388.92729551708686
+        ],
+        "zIndex": 12
+      },
+      "anchors": [
+        {
+          "id": "anchor_003_b",
+          "kind": "joint",
+          "partPx": [
+            150.45914603023436,
+            48.10956342830916
+          ],
+          "partUV": [
+            0.7836413855741373,
+            0.2863664489780307
+          ],
+          "sheetPx": [
+            697.4591460302344,
+            560.1095634283091
+          ]
+        },
+        {
+          "id": "anchor_007_a",
+          "kind": "joint",
+          "partPx": [
+            56.85654577370536,
+            114.18198713880022
+          ],
+          "partUV": [
+            0.2961278425713821,
+            0.6796546853500013
+          ],
+          "sheetPx": [
+            603.8565457737054,
+            626.1819871388002
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_002",
+      "width": 204,
+      "height": 233,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          321,
+          673
+        ],
+        "zIndex": 14,
+        "tightBBox": [
+          339,
+          691,
+          507,
+          888
+        ],
+        "cropBBox": [
+          321,
+          673,
+          525,
+          906
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          290.75162535520855,
+          444.3772941368183
+        ],
+        "zIndex": 14
+      },
+      "anchors": [
+        {
+          "id": "anchor_007_b",
+          "kind": "joint",
+          "partPx": [
+            148.17678148186542,
+            54.8405479190173
+          ],
+          "partUV": [
+            0.7263567719699285,
+            0.235367158450718
+          ],
+          "sheetPx": [
+            469.1767814818654,
+            727.8405479190174
+          ]
+        },
+        {
+          "id": "anchor_011_a",
+          "kind": "joint",
+          "partPx": [
+            106.6863090535406,
+            203.5147407871812
+          ],
+          "partUV": [
+            0.5229721032036304,
+            0.8734538231209494
+          ],
+          "sheetPx": [
+            427.6863090535406,
+            876.5147407871812
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_003",
+      "width": 94,
+      "height": 145,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          254,
+          941
+        ],
+        "zIndex": 13,
+        "tightBBox": [
+          272,
+          959,
+          330,
+          1068
+        ],
+        "cropBBox": [
+          254,
+          941,
+          348,
+          1086
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.923169169838018,
+          0,
+          0,
+          0.923169169838018,
+          334.4089204935776,
+          607.5503605999515
+        ],
+        "zIndex": 13
+      },
+      "anchors": [
+        {
+          "id": "anchor_011_b",
+          "kind": "joint",
+          "partPx": [
+            60.696170322514405,
+            29.242488705470585
+          ],
+          "partUV": [
+            0.6457039396012171,
+            0.20167233589979713
+          ],
+          "sheetPx": [
+            314.6961703225144,
+            970.2424887054706
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_004",
+      "width": 254,
+      "height": 365,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          846,
+          462
+        ],
+        "zIndex": 10,
+        "tightBBox": [
+          864,
+          480,
+          1082,
+          809
+        ],
+        "cropBBox": [
+          846,
+          462,
+          1100,
+          827
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9328066970649458,
+          0.054934389209196986,
+          -0.054934389209196986,
+          0.9328066970649458,
+          479.6865551621873,
+          353.74552470729554
+        ],
+        "zIndex": 10
+      },
+      "anchors": [
+        {
+          "id": "anchor_001_a",
+          "kind": "joint",
+          "partPx": [
+            84.262893081761,
+            43.53032490974729
+          ],
+          "partUV": [
+            0.3317436735502402,
+            0.11926116413629395
+          ],
+          "sheetPx": [
+            930.262893081761,
+            505.53032490974726
+          ]
+        },
+        {
+          "id": "anchor_002_a",
+          "kind": "joint",
+          "partPx": [
+            136.58490566037736,
+            316.9043321299639
+          ],
+          "partUV": [
+            0.5377358490566038,
+            0.868231046931408
+          ],
+          "sheetPx": [
+            982.5849056603773,
+            778.9043321299639
+          ]
+        },
+        {
+          "id": "anchor_003_a",
+          "kind": "joint",
+          "partPx": [
+            44.55849056603773,
+            83.28483754512635
+          ],
+          "partUV": [
+            0.17542712821274697,
+            0.22817763710993522
+          ],
+          "sheetPx": [
+            890.5584905660378,
+            545.2848375451264
+          ]
+        },
+        {
+          "id": "anchor_004_a",
+          "kind": "joint",
+          "partPx": [
+            126.3446540880503,
+            77.28483754512635
+          ],
+          "partUV": [
+            0.49741989798445,
+            0.21173928094555164
+          ],
+          "sheetPx": [
+            972.3446540880503,
+            539.2848375451264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_005",
+      "width": 307,
+      "height": 280,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          793,
+          860
+        ],
+        "zIndex": 11,
+        "tightBBox": [
+          811,
+          878,
+          1082,
+          1122
+        ],
+        "cropBBox": [
+          793,
+          860,
+          1100,
+          1140
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9336219757497722,
+          0.03867980873909302,
+          -0.03867980873909302,
+          0.9336219757497722,
+          409.21315919026074,
+          566.7195597589224
+        ],
+        "zIndex": 11
+      },
+      "anchors": [
+        {
+          "id": "anchor_002_b",
+          "kind": "joint",
+          "partPx": [
+            196.96473029045643,
+            88.38812785388129
+          ],
+          "partUV": [
+            0.6415789260275454,
+            0.31567188519243317
+          ],
+          "sheetPx": [
+            989.9647302904564,
+            948.3881278538813
+          ]
+        },
+        {
+          "id": "anchor_005_a",
+          "kind": "joint",
+          "partPx": [
+            114.35477178423236,
+            213.77625570776257
+          ],
+          "partUV": [
+            0.37249111330368845,
+            0.7634866275277234
+          ],
+          "sheetPx": [
+            907.3547717842323,
+            1073.7762557077626
+          ]
+        },
+        {
+          "id": "anchor_006_a",
+          "kind": "joint",
+          "partPx": [
+            212.02697095435684,
+            213.33333333333334
+          ],
+          "partUV": [
+            0.6906415991998595,
+            0.761904761904762
+          ],
+          "sheetPx": [
+            1005.0269709543568,
+            1073.3333333333333
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_006",
+      "width": 301,
+      "height": 332,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          751,
+          68
+        ],
+        "zIndex": 9,
+        "tightBBox": [
+          769,
+          86,
+          1034,
+          382
+        ],
+        "cropBBox": [
+          751,
+          68,
+          1052,
+          400
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          393.2676543345681,
+          130.83278530834372
+        ],
+        "zIndex": 9
+      },
+      "anchors": [
+        {
+          "id": "anchor_001_b",
+          "kind": "joint",
+          "partPx": [
+            174.04173553719005,
+            286.9654135338346
+          ],
+          "partUV": [
+            0.5782117459707311,
+            0.8643536552223933
+          ],
+          "sheetPx": [
+            925.0417355371901,
+            354.9654135338346
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_007",
+      "width": 169,
+      "height": 133,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1234,
+          1789
+        ],
+        "zIndex": 3,
+        "tightBBox": [
+          1252,
+          1807,
+          1385,
+          1904
+        ],
+        "cropBBox": [
+          1234,
+          1789,
+          1403,
+          1922
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          547.6237556281482,
+          983.5228087322544
+        ],
+        "zIndex": 3
+      },
+      "anchors": [
+        {
+          "id": "anchor_014_b",
+          "kind": "joint",
+          "partPx": [
+            46.22432500166855,
+            46.00428607231052
+          ],
+          "partUV": [
+            0.2735167159862044,
+            0.3458968877617332
+          ],
+          "sheetPx": [
+            1280.2243250016686,
+            1835.0042860723106
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_008",
+      "width": 232,
+      "height": 279,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          618,
+          1147
+        ],
+        "zIndex": 8,
+        "tightBBox": [
+          636,
+          1165,
+          832,
+          1408
+        ],
+        "cropBBox": [
+          618,
+          1147,
+          850,
+          1426
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          405.29571467920283,
+          717.9460882675392
+        ],
+        "zIndex": 8
+      },
+      "anchors": [
+        {
+          "id": "anchor_005_b",
+          "kind": "joint",
+          "partPx": [
+            109.6,
+            56.48716814159291
+          ],
+          "partUV": [
+            0.4724137931034483,
+            0.20246296824943696
+          ],
+          "sheetPx": [
+            727.6,
+            1203.487168141593
+          ]
+        },
+        {
+          "id": "anchor_009_a",
+          "kind": "joint",
+          "partPx": [
+            67.33333333333333,
+            226.53318584070797
+          ],
+          "partUV": [
+            0.29022988505747127,
+            0.8119469026548672
+          ],
+          "sheetPx": [
+            685.3333333333334,
+            1373.533185840708
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_009",
+      "width": 193,
+      "height": 290,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1062,
+          1129
+        ],
+        "zIndex": 5,
+        "tightBBox": [
+          1080,
+          1147,
+          1237,
+          1401
+        ],
+        "cropBBox": [
+          1062,
+          1129,
+          1255,
+          1419
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          485.5241751908063,
+          724.719855580473
+        ],
+        "zIndex": 5
+      },
+      "anchors": [
+        {
+          "id": "anchor_006_b",
+          "kind": "joint",
+          "partPx": [
+            121.34798201666342,
+            52.83855522741935
+          ],
+          "partUV": [
+            0.6287460208117276,
+            0.1822019145773081
+          ],
+          "sheetPx": [
+            1183.3479820166635,
+            1181.8385552274194
+          ]
+        },
+        {
+          "id": "anchor_010_a",
+          "kind": "joint",
+          "partPx": [
+            103.678305915925,
+            228.43096147850758
+          ],
+          "partUV": [
+            0.5371932949011657,
+            0.7876929706155434
+          ],
+          "sheetPx": [
+            1165.678305915925,
+            1357.4309614785075
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_010",
+      "width": 134,
+      "height": 202,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1110,
+          1464
+        ],
+        "zIndex": 4,
+        "tightBBox": [
+          1128,
+          1482,
+          1226,
+          1648
+        ],
+        "cropBBox": [
+          1110,
+          1464,
+          1244,
+          1666
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          519.7386058009372,
+          878.0903904654195
+        ],
+        "zIndex": 4
+      },
+      "anchors": [
+        {
+          "id": "anchor_010_b",
+          "kind": "joint",
+          "partPx": [
+            67.06273143387114,
+            64.29699393063376
+          ],
+          "partUV": [
+            0.500468145028889,
+            0.3183019501516523
+          ],
+          "sheetPx": [
+            1177.0627314338712,
+            1528.2969939306338
+          ]
+        },
+        {
+          "id": "anchor_014_a",
+          "kind": "joint",
+          "partPx": [
+            76.06643437580934,
+            158.8358748209849
+          ],
+          "partUV": [
+            0.5676599580284278,
+            0.7863162119850738
+          ],
+          "sheetPx": [
+            1186.0664343758094,
+            1622.8358748209848
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_011",
+      "width": 152,
+      "height": 192,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          608,
+          1514
+        ],
+        "zIndex": 7,
+        "tightBBox": [
+          626,
+          1532,
+          742,
+          1688
+        ],
+        "cropBBox": [
+          608,
+          1514,
+          760,
+          1706
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          388.7751762207628,
+          872.0289473950024
+        ],
+        "zIndex": 7
+      },
+      "anchors": [
+        {
+          "id": "anchor_009_b",
+          "kind": "joint",
+          "partPx": [
+            85.01327117305684,
+            61.63690365272083
+          ],
+          "partUV": [
+            0.5592978366648476,
+            0.321025539857921
+          ],
+          "sheetPx": [
+            693.0132711730569,
+            1575.6369036527208
+          ]
+        },
+        {
+          "id": "anchor_013_a",
+          "kind": "joint",
+          "partPx": [
+            47.833527584197405,
+            151.76961538328914
+          ],
+          "partUV": [
+            0.3146942604223513,
+            0.7904667467879642
+          ],
+          "sheetPx": [
+            655.8335275841974,
+            1665.7696153832892
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_012",
+      "width": 166,
+      "height": 158,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          558,
+          1766
+        ],
+        "zIndex": 6,
+        "tightBBox": [
+          576,
+          1784,
+          706,
+          1906
+        ],
+        "cropBBox": [
+          558,
+          1766,
+          724,
+          1924
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          364.13713442667915,
+          971.5770333294817
+        ],
+        "zIndex": 6
+      },
+      "anchors": [
+        {
+          "id": "anchor_013_b",
+          "kind": "joint",
+          "partPx": [
+            74.20064924356248,
+            45.23531713310755
+          ],
+          "partUV": [
+            0.446991862913027,
+            0.28629947552599716
+          ],
+          "sheetPx": [
+            632.2006492435625,
+            1811.2353171331076
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_013",
+      "width": 214,
+      "height": 119,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1134,
+          503
+        ],
+        "zIndex": 2,
+        "tightBBox": [
+          1152,
+          521,
+          1330,
+          604
+        ],
+        "cropBBox": [
+          1134,
+          503,
+          1348,
+          622
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          550.0543986068013,
+          387.7454872492543
+        ],
+        "zIndex": 2
+      },
+      "anchors": [
+        {
+          "id": "anchor_004_b",
+          "kind": "joint",
+          "partPx": [
+            46.276371805575295,
+            48.1928672791041
+          ],
+          "partUV": [
+            0.21624472806343595,
+            0.4049820779756647
+          ],
+          "sheetPx": [
+            1180.2763718055753,
+            551.1928672791041
+          ]
+        },
+        {
+          "id": "anchor_008_a",
+          "kind": "joint",
+          "partPx": [
+            161.17325652246853,
+            59.56879645899452
+          ],
+          "partUV": [
+            0.7531460585162081,
+            0.5005781215041556
+          ],
+          "sheetPx": [
+            1295.1732565224686,
+            562.5687964589945
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_014",
+      "width": 233,
+      "height": 171,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1382,
+          542
+        ],
+        "zIndex": 1,
+        "tightBBox": [
+          1400,
+          560,
+          1597,
+          695
+        ],
+        "cropBBox": [
+          1382,
+          542,
+          1615,
+          713
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          650.9579799112926,
+          380.8649795453792
+        ],
+        "zIndex": 1
+      },
+      "anchors": [
+        {
+          "id": "anchor_008_b",
+          "kind": "joint",
+          "partPx": [
+            53.18833522243103,
+            66.9321731925237
+          ],
+          "partUV": [
+            0.22827611683446794,
+            0.3914162175001386
+          ],
+          "sheetPx": [
+            1435.188335222431,
+            608.9321731925237
+          ]
+        },
+        {
+          "id": "anchor_012_a",
+          "kind": "joint",
+          "partPx": [
+            202.36603906915735,
+            60.2023519663556
+          ],
+          "partUV": [
+            0.8685237728290015,
+            0.352060537814945
+          ],
+          "sheetPx": [
+            1584.3660390691573,
+            602.2023519663556
+          ]
+        }
+      ]
+    },
+    {
+      "id": "part_015",
+      "width": 156,
+      "height": 80,
+      "source": {
+        "matrix": [
+          1,
+          0,
+          0,
+          1,
+          1719,
+          693
+        ],
+        "zIndex": 0,
+        "tightBBox": [
+          1737,
+          711,
+          1857,
+          755
+        ],
+        "cropBBox": [
+          1719,
+          693,
+          1875,
+          773
+        ]
+      },
+      "rest": {
+        "matrix": [
+          0.9344228813588638,
+          0,
+          0,
+          0.9344228813588638,
+          812.4278392541105,
+          400.2097309206865
+        ],
+        "zIndex": 0
+      },
+      "anchors": [
+        {
+          "id": "anchor_012_b",
+          "kind": "joint",
+          "partPx": [
+            29.564342359843167,
+            39.5
+          ],
+          "partUV": [
+            0.1895150151271998,
+            0.49375
+          ],
+          "sheetPx": [
+            1748.564342359843,
+            732.5
+          ]
+        }
+      ]
+    }
+  ],
+  "joints": [
+    {
+      "id": "joint_001",
+      "parent": {
+        "partId": "part_004",
+        "anchorId": "anchor_001_a"
+      },
+      "child": {
+        "partId": "part_006",
+        "anchorId": "anchor_001_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_002",
+      "parent": {
+        "partId": "part_004",
+        "anchorId": "anchor_002_a"
+      },
+      "child": {
+        "partId": "part_005",
+        "anchorId": "anchor_002_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_003",
+      "parent": {
+        "partId": "part_004",
+        "anchorId": "anchor_003_a"
+      },
+      "child": {
+        "partId": "part_001",
+        "anchorId": "anchor_003_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_004",
+      "parent": {
+        "partId": "part_004",
+        "anchorId": "anchor_004_a"
+      },
+      "child": {
+        "partId": "part_013",
+        "anchorId": "anchor_004_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_005",
+      "parent": {
+        "partId": "part_005",
+        "anchorId": "anchor_005_a"
+      },
+      "child": {
+        "partId": "part_008",
+        "anchorId": "anchor_005_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_006",
+      "parent": {
+        "partId": "part_005",
+        "anchorId": "anchor_006_a"
+      },
+      "child": {
+        "partId": "part_009",
+        "anchorId": "anchor_006_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_007",
+      "parent": {
+        "partId": "part_001",
+        "anchorId": "anchor_007_a"
+      },
+      "child": {
+        "partId": "part_002",
+        "anchorId": "anchor_007_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_008",
+      "parent": {
+        "partId": "part_013",
+        "anchorId": "anchor_008_a"
+      },
+      "child": {
+        "partId": "part_014",
+        "anchorId": "anchor_008_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_009",
+      "parent": {
+        "partId": "part_008",
+        "anchorId": "anchor_009_a"
+      },
+      "child": {
+        "partId": "part_011",
+        "anchorId": "anchor_009_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_010",
+      "parent": {
+        "partId": "part_009",
+        "anchorId": "anchor_010_a"
+      },
+      "child": {
+        "partId": "part_010",
+        "anchorId": "anchor_010_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_011",
+      "parent": {
+        "partId": "part_002",
+        "anchorId": "anchor_011_a"
+      },
+      "child": {
+        "partId": "part_003",
+        "anchorId": "anchor_011_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_012",
+      "parent": {
+        "partId": "part_014",
+        "anchorId": "anchor_012_a"
+      },
+      "child": {
+        "partId": "part_015",
+        "anchorId": "anchor_012_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_013",
+      "parent": {
+        "partId": "part_011",
+        "anchorId": "anchor_013_a"
+      },
+      "child": {
+        "partId": "part_012",
+        "anchorId": "anchor_013_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    },
+    {
+      "id": "joint_014",
+      "parent": {
+        "partId": "part_010",
+        "anchorId": "anchor_014_a"
+      },
+      "child": {
+        "partId": "part_007",
+        "anchorId": "anchor_014_b"
+      },
+      "limitsDeg": [
+        -180,
+        180
+      ],
+      "restAngleDeg": 0
+    }
+  ],
+  "partAssets": {
+    "part_001": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_001/00.webp",
+          "width": 192,
+          "height": 168,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_002": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_002/00.webp",
+          "width": 204,
+          "height": 233,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_003": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_003/00.webp",
+          "width": 94,
+          "height": 145,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_004": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_004/00.webp",
+          "width": 254,
+          "height": 365,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_005": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_005/00.webp",
+          "width": 307,
+          "height": 280,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_006": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_006/00.webp",
+          "width": 301,
+          "height": 332,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_007": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_007/00.webp",
+          "width": 169,
+          "height": 133,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_008": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_008/00.webp",
+          "width": 232,
+          "height": 279,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_009": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_009/00.webp",
+          "width": 193,
+          "height": 290,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_010": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_010/00.webp",
+          "width": 134,
+          "height": 202,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_011": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_011/00.webp",
+          "width": 152,
+          "height": 192,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_012": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_012/00.webp",
+          "width": 166,
+          "height": 158,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_013": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_013/00.webp",
+          "width": 214,
+          "height": 119,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_014": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_014/00.webp",
+          "width": 233,
+          "height": 171,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    },
+    "part_015": {
+      "defaultAssetId": "00",
+      "items": {
+        "00": {
+          "id": "00",
+          "path": "parts/part_015/00.webp",
+          "width": 156,
+          "height": 80,
+          "mimeType": "image/webp",
+          "label": "生成纹样"
+        }
+      }
+    }
+  },
+  "referenceAssets": {},
+  "externalReferences": {
+    "originalPuppet": {
+      "sha256": "7809e1abd32cd8a0da9cc3e06019a657aba69f269cf20bc08d6fd639fbcd44ab",
+      "mimeType": "image/webp",
+      "width": 2048,
+      "height": 2048,
+      "label": "第一步完整生成图"
+    },
+    "decomposedPuppet": {
+      "sha256": "06fd227ab461b5cb8fd1d4ca3e3cfed933cb764f58714b66df3de84faa34f468",
+      "mimeType": "image/webp",
+      "width": 2048,
+      "height": 2048,
+      "label": "第二步拆解生成图"
+    }
+  },
+  "assetLayout": "parts/{partId}/{assetId}.webp",
+  "capabilities": [
+    "generated-from-template",
+    "multi-asset-parts"
+  ]
+}

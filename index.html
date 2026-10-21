@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>灯影</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #0d0806; overflow: hidden;
+    touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+  canvas { display: block; }
+  .overlay { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center; background: #0d0806; color: #e9cf9a; z-index: 9;
+    font: 20px/1.7 "Songti SC", "STSong", "Noto Serif SC", serif; }
+  #rotate { display: none; }
+  @media (orientation: portrait) and (pointer: coarse) { #rotate { display: flex; } }
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="loading" class="overlay">灯影 · 载入中……</div>
+<div id="rotate" class="overlay">请把手机横过来<br><span style="font-size:15px;opacity:.6">这是一个横版游戏</span></div>
+<script>/* 开发期：每次都拿最新脚本，避免缓存 */ const s = document.createElement("script"); s.src = "game.js?t=" + Date.now(); document.body.appendChild(s);</script>
+</body>
+</html>
